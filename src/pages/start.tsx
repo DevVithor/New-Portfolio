@@ -43,7 +43,7 @@ export function Start() {
         </div>
       </div>
       <div className="flex h-full w-full items-end justify-center">
-        <img src="../../assets/eu3.png" className="h-[130%]" alt="" />
+        <img src={"./assets/eu3.png"} className="h-[130%]" alt="" />
       </div>
     </div>
   );

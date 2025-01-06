@@ -22,9 +22,8 @@ export function About() {
           desenvolvimento de aplicações. Durante esse período, adquiri
           conhecimento em ferramentas como{" "}
           <strong>
-            Typescript, Javascript, Node, Fastify, Express, Vitest, Vite,
-            GitHub, GitLab, TypeORM, Prisma, React, Docker, MySQL, Oracle,
-            DBeaver, Figma
+            Node, Fastify, Express, Vitest, Vite, GitHub, GitLab, TypeORM,
+            Prisma, React, Docker, MySQL, Oracle, DBeaver, Figma
           </strong>{" "}
           e <strong>Notion</strong>. Essas ferramentas fazem parte do meu dia a
           dia e contribuem significativamente para o desenvolvimento eficiente
@@ -32,10 +31,10 @@ export function About() {
         </p>
         <p className="pb-5 text-sm">
           Além de utilizar essas ferramentas, aprofundei meus conhecimentos em
-          linguagens de programação, o que me permitiu enfrentar problemas
-          complexos de forma criativa e encontrar soluções eficazes. Estou
-          sempre em busca de novos desafios para evoluir como profissional e
-          contribuir para o sucesso das equipes em que atuo.
+          <strong>Typescript e Javascript</strong>, o que me permitiu enfrentar
+          problemas complexos de forma criativa e encontrar soluções eficazes.
+          Estou sempre em busca de novos desafios para evoluir como profissional
+          e contribuir para o sucesso das equipes em que atuo.
         </p>
         <div className="flex h-full w-full max-w-[1320px]">
           <HardSkills />
@@ -70,7 +69,7 @@ export function About() {
             <div className="flex h-full flex-col gap-3">
               <div className="flex gap-5">
                 <img
-                  src="../../assets/pucpr.png"
+                  src={"public/assets/pucpr.png"}
                   className="w-24 bg-zinc-50 dark:bg-zinc-100"
                   alt=""
                 />
@@ -83,7 +82,7 @@ export function About() {
               </div>
               <div className="flex gap-5">
                 <img
-                  src="../../assets/alura.png"
+                  src={"/assets/alura.png"}
                   className="w-24 bg-zinc-50 dark:bg-zinc-100"
                   alt=""
                 />
@@ -95,7 +94,7 @@ export function About() {
               </div>
               <div className="flex gap-5">
                 <img
-                  src="../../assets/rockseat.png"
+                  src={"./public/assets/rockseat.png"}
                   className="w-24 bg-zinc-50 dark:bg-zinc-100"
                   alt=""
                 />

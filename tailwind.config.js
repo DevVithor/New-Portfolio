@@ -8,9 +8,9 @@ export default {
       20: "20",
     },
     backgroundImage: {
-      project1: "url(./assets/ifood.webp)",
-      project2: "url(./assets/efi.png)",
-      project3: "url(./assets/telegram-001.jpg)",
+      project1: "url(./public/assets/ifood.webp)",
+      project2: "url(./public/assets/efi.png)",
+      project3: "url(./public/assets/telegram-001.jpg)",
     },
     boxShadow: {
       custom: "0 10px 30px 10px rgba(0, 0, 0, 0)",

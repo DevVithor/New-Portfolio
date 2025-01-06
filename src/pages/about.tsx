@@ -69,7 +69,7 @@ export function About() {
             <div className="flex h-full flex-col gap-3">
               <div className="flex gap-5">
                 <img
-                  src={"public/assets/pucpr.png"}
+                  src={"/assets/pucpr.png"}
                   className="w-24 bg-zinc-50 dark:bg-zinc-100"
                   alt=""
                 />
@@ -94,7 +94,7 @@ export function About() {
               </div>
               <div className="flex gap-5">
                 <img
-                  src={"./public/assets/rockseat.png"}
+                  src={"/assets/rockseat.png"}
                   className="w-24 bg-zinc-50 dark:bg-zinc-100"
                   alt=""
                 />
